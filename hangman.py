@@ -7,7 +7,7 @@ words = ["apple", "tiger", "chair", "robot", "water"]
 word = random.choice(words)
 
 # Store guessed letters
-guessed = []
+guessed = [word[0]]
 
 # Number of attempts
 attempts = 6
